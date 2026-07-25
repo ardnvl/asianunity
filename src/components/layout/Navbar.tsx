@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Shield, Menu, X } from "lucide-react";
+import { Menu, X, Snowflake } from "lucide-react";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -44,17 +44,16 @@ export default function Navbar() {
           "
         >
 
-          <div className="
-            rounded-xl 
-            bg-cyan-500 
-            p-2
-          ">
-            <Shield 
-              className="text-white" 
-              size={20}
-            />
-          </div>
-
+        <div className="
+  rounded-xl 
+  bg-cyan-500 
+  p-2
+">
+  <Snowflake
+    className="text-white"
+    size={20}
+  />
+</div>
 
           <div>
             <h1 className="
